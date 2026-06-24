@@ -33,7 +33,8 @@ ChronoMind processes chronological conversation data (CSV format) through a mult
 2. **Dual-level Indexing** — Builds both semantic (topic-based) and temporal (100-message) FAISS indexes
 3. **User Persona Extraction** — Extracts evidence-based personality profiles with frequency promotion gates
 4. **Intent-aware RAG** — Classifies query intent, retrieves from 3 FAISS indexes, synthesizes a natural-language answer
-5. **Explainable UI** — Streamlit dashboard with 5 tabs: Chatbot, Persona Viewer, Topic Explorer, Checkpoints, Methodology
+5. **Conflict Resolution & Drift Analysis** — Explains contradictions via temporal scoring and analyzes persona mood over time
+6. **Explainable UI** — Streamlit dashboard with 9 tabs: Chatbot, Persona Viewer, Topic Explorer, Checkpoints, Methodology, Persona Drift, Intent Classifier, Conflict Resolver, and Sync Architecture.
 
 ---
 
@@ -116,13 +117,17 @@ ChronoMind processes chronological conversation data (CSV format) through a mult
 │                              │                                               │
 │                              ▼                                               │
 │        ┌────────────────────────────────────────────┐                        │
-│        │         Streamlit Dashboard (5 Tabs)       │                        │
+│        │         Streamlit Dashboard (9 Tabs)       │                        │
 │        ├────────────────────────────────────────────┤                        │
 │        │ Chatbot                                    │                        │
 │        │ Persona Viewer                             │                        │
 │        │ Topic Explorer                             │                        │
 │        │ Checkpoint Explorer                        │                        │
 │        │ Methodology                                │                        │
+│        │ Persona Drift Analysis (v2)                │                        │
+│        │ Offline Intent Classifier (v2)             │                        │
+│        │ Conflict Resolver (v2)                     │                        │
+│        │ Sync Architecture (v2)                     │                        │
 │        └────────────────────────────────────────────┘                        │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
@@ -227,6 +232,17 @@ Multi-index FAISS retrieval with intent-aware routing:
 
 ---
 
+### Conflict Resolution (v2 Feature)
+
+When conflicting evidence is detected across semantic and temporal boundaries, the system uses a **composite scoring matrix**:
+1. **Similarity Score (50%)** — Semantic relevance from the FAISS chunk
+2. **Recency Score (30%)** — Normalized global message index showing how current the information is
+3. **Emotional Weight (20%)** — Boosting based on high-salience life events (e.g., `family`, `married`, `career`, `moved`).
+
+The system builds an explicit augmented answer pointing out the contradiction, explaining which information is newer, and synthesizing a conflict-aware response.
+
+---
+
 ### Answer Synthesis
 
 The answer synthesizer (`src/answer_synthesizer.py`) routes each query to a specialized generation function:
@@ -317,10 +333,19 @@ python build_persona.py
 
 Runs first-person pattern matching per user → applies frequency gates → outputs structured JSON to `persona/`.
 
-### 4. Launch Dashboard
+### 4. Build v2 Features (Drift & Intent Models)
 
 ```bash
-streamlit run app.py
+python build_persona_drift.py
+python build_intent_model.py
+```
+
+Builds the adaptive persona mood drift dataset and trains the hybrid offline Intent Classifier (Random Forest).
+
+### 5. Launch Dashboard
+
+```bash
+python -m streamlit run app.py
 ```
 
 Open `http://localhost:8501`.
@@ -345,16 +370,24 @@ ChronoMind/
 │   ├── vector_store.py            # FAISS multi-index management
 │   ├── persona_extractor.py       # First-person persona extraction
 │   ├── retrieval.py               # Multi-index retrieval pipeline
-│   └── answer_synthesizer.py      # Intent-aware answer synthesis
+│   ├── answer_synthesizer.py      # Intent-aware answer synthesis
+│   ├── persona_drift.py           # (v2) Analyzes emotional changes over time
+│   ├── intent_classifier.py       # (v2) Offline ML intent router model
+│   ├── conflict_resolver.py       # (v2) Multi-evidence conflict resolution
+│   └── sync_architecture.py       # (v2) Pipeline timing simulation
 ├── checkpoints/                   # Generated topic & checkpoint JSONs
 ├── persona/                       # Generated persona JSONs
+├── models/                        # (v2) Saved ML models (intent_model.pkl)
 ├── vector_db/                     # Persisted FAISS indexes
 ├── .streamlit/
 │   └── config.toml                # Streamlit dark theme configuration
-├── app.py                         # Streamlit dashboard (5 tabs)
+├── app.py                         # Main Streamlit dashboard
+├── app_v2_tabs.py                 # (v2) Tab components for new features
 ├── chatbot.py                     # ChronoBot engine
 ├── build_rag.py                   # RAG build pipeline
 ├── build_persona.py               # Persona extraction pipeline
+├── build_persona_drift.py         # (v2) Persona mood drift pipeline
+├── build_intent_model.py          # (v2) Intent model training pipeline
 ├── config.json                    # Central configuration
 ├── requirements.txt               # Python dependencies
 ├── Dockerfile                     # Docker deployment
