@@ -1,5 +1,7 @@
 # 🧠 ChronoMind
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-ChronoMind-blue?style=for-the-badge&logo=streamlit)](https://chronomind-saurabh.streamlit.app/)
+
 **Explainable Conversation Intelligence System**
 
 ChronoMind is a production-ready system that analyzes chronological conversation data to detect topics, extract user personas, and answer natural-language questions using RAG — all running locally with no paid APIs or external LLMs.
