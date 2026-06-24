@@ -28,7 +28,7 @@ Thumbs.db
 # vector_db/*_meta.json
 # checkpoints/*.json
 # persona/*.json
-data/parsed_messages.json
+# data/parsed_messages.json
 
 # Logs
 *.log
