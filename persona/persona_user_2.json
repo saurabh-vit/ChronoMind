@@ -1,0 +1,1094 @@
+{
+  "user_name": "User 2",
+  "habits": [
+    {
+      "trait": "Regular Reader",
+      "confidence": 1.0,
+      "evidence": [
+        31,
+        57,
+        160,
+        162,
+        445,
+        466,
+        470,
+        663,
+        714,
+        778
+      ],
+      "snippets": [
+        "I enjoy reading, cooking, and spending time with my family.",
+        "That's so cool! I love reading too.",
+        "Those all sound like great hobbies. I love to read, too.",
+        "I love to read all sorts of books, but I'm especially a fan of historical fiction and fantasy.",
+        "I love to read anything by Stephen King or Dean Koontz. They're both great horror writers. I also love to read histor…"
+      ],
+      "occurrences": 1814
+    },
+    {
+      "trait": "Home Cooking",
+      "confidence": 0.95,
+      "evidence": [
+        521,
+        1284,
+        1345,
+        1803,
+        2074,
+        2149,
+        2168,
+        2241,
+        2306,
+        2640
+      ],
+      "snippets": [
+        "I love to cook all kinds of food, but my specialty is Italian.",
+        "I love to read too! I'm currently reading a book about the history of computers. And I love to cook as well! I love t…",
+        "I love to cook and travel.",
+        "I love to cook, and I'm obsessed with my dog.",
+        "Hi! I'm a chef and a student, so I cook and take music classes. What about you?"
+      ],
+      "occurrences": 726
+    },
+    {
+      "trait": "Routine Activities",
+      "confidence": 0.91,
+      "evidence": [
+        905,
+        1478,
+        2992,
+        3289,
+        4000,
+        6163,
+        6634,
+        7015,
+        7136,
+        7148
+      ],
+      "snippets": [
+        "That sounds like a lot of fun! I like to go for walks too, but I'm not very adventurous. I usually stick to the same …",
+        "It is! I love being out in nature and I always feel better after a hike.",
+        "I love swimming and playing in the sand.  But I always spill drinks on myself, which is kind of annoying.",
+        "I often spend my free time engaging in activism work with friends and family.",
+        "Sounds good! I'm going to go for a run. I always relax by going for a run after a long day of designing and testing n…"
+      ],
+      "occurrences": 464
+    },
+    {
+      "trait": "Visual Arts",
+      "confidence": 0.86,
+      "evidence": [
+        940,
+        1655,
+        2769,
+        6060,
+        6891,
+        7344,
+        7352,
+        7757,
+        8989,
+        8991
+      ],
+      "snippets": [
+        "That's so interesting! I've never played badminton before but it looks fun. I love to draw comics too! I'm trying to …",
+        "I like to draw and paint.",
+        "And I love art. I like to draw and paint.",
+        "Oh, that's cool! I just joined a new gym near my home in New Mexico to continue my athletic pursuits. I love painting…",
+        "I love to paint and draw. I find it to be a very therapeutic way to express myself."
+      ],
+      "occurrences": 342
+    },
+    {
+      "trait": "Hiking / Trail Walking",
+      "confidence": 0.85,
+      "evidence": [
+        951,
+        1952,
+        2741,
+        2829,
+        4592,
+        8523,
+        10979,
+        12316,
+        12363,
+        12684
+      ],
+      "snippets": [
+        "Yes, I love hiking in the mountains in the summer. There are some really beautiful trails in the Tetons.",
+        "I'm glad that you're enjoying your life! I hiked and swam at the lake on my last vacation. What was your favorite par…",
+        "Oh, that sounds like fun!  I love hiking.  Do you do it often?",
+        "I love hiking too! I fell and sprained my ankle while hiking last year.",
+        "That sounds amazing! I love hiking but I haven't been in a while. I'm trying to get back into it."
+      ],
+      "occurrences": 252
+    },
+    {
+      "trait": "Frequent Traveller",
+      "confidence": 0.84,
+      "evidence": [
+        895,
+        995,
+        2086,
+        2216,
+        3221,
+        4019,
+        4650,
+        5811,
+        6313,
+        6778
+      ],
+      "snippets": [
+        "That sounds really nice.  I love traveling and making friends.  I once started a forest fire in California.",
+        "That is so awesome! I love to travel too. My girls and I go on lots of day trips.",
+        "I love to travel and meet new people. I've been all over the world and I've made so many friends.",
+        "I like to travel and sing in the choir.",
+        "I like to travel and I'm going to Barbados next month."
+      ],
+      "occurrences": 222
+    },
+    {
+      "trait": "Plays a Musical Instrument",
+      "confidence": 0.83,
+      "evidence": [
+        646,
+        768,
+        966,
+        3341,
+        4358,
+        4479,
+        4666,
+        4668,
+        5721,
+        6049
+      ],
+      "snippets": [
+        "That's so cool! I play guitar and I'm learning to dance ballet.",
+        "I play the piano and the guitar. I also sing a little bit.",
+        "That's awesome! I play the piano and sing. I mostly play classical music.",
+        "I play the guitar and the piano. I also sing a little bit.",
+        "I play the piano and I sing."
+      ],
+      "occurrences": 205
+    },
+    {
+      "trait": "Singing",
+      "confidence": 0.8,
+      "evidence": [
+        75,
+        236,
+        1110,
+        1112,
+        1464,
+        2222,
+        2592,
+        4358,
+        4453,
+        4455
+      ],
+      "snippets": [
+        "I love to sing karaoke and I am really into archery.",
+        "I sing! I've been singing since I was a kid.",
+        "I like to spend time with my family and friends, and I love to sing.",
+        "I love to sing \"I Will Always Love You\" by Whitney Houston.",
+        "I love to sing in the church choir and I also love to exercise."
+      ],
+      "occurrences": 171
+    },
+    {
+      "trait": "Baking",
+      "confidence": 0.8,
+      "evidence": [
+        3379,
+        3381,
+        3383,
+        3497,
+        4518,
+        9026,
+        9587,
+        10759,
+        10763,
+        12411
+      ],
+      "snippets": [
+        "yeah, i bake pretty often. i love to bake and cook.",
+        "i like to bake cupcakes and cookies the most.",
+        "i love to bake bread too! but it's definitely harder than cupcakes and cookies.",
+        "That sounds wonderful! I'm not much of a cook, but I love to bake too.",
+        "I love baking all sorts of things, but my favorite is probably bread."
+      ],
+      "occurrences": 175
+    },
+    {
+      "trait": "Swimming",
+      "confidence": 0.79,
+      "evidence": [
+        2524,
+        2992,
+        5795,
+        5943,
+        6255,
+        6523,
+        10165,
+        10680,
+        11419,
+        11496
+      ],
+      "snippets": [
+        "I like to swim in the river, eat plants, and bask in the sun.",
+        "I love swimming and playing in the sand.  But I always spill drinks on myself, which is kind of annoying.",
+        "I love swimming, sunbathing, and playing in the sand.",
+        "I like swimming, hiking, camping, and fishing.",
+        "That's really cool! I love to swim in the lake, even if it makes me a weirdo."
+      ],
+      "occurrences": 131
+    },
+    {
+      "trait": "Gardening",
+      "confidence": 0.77,
+      "evidence": [
+        105,
+        595,
+        1329,
+        3078,
+        5877,
+        8356,
+        9079,
+        11157,
+        14344,
+        16971
+      ],
+      "snippets": [
+        "I enjoy gardening, listening to the Beatles, and spending time with my pets.",
+        "I love gardening, and I'm also a big fan of the Beatles. What about you?",
+        "Yes, I like to garden. I'm interested in learning more about native plants and how to grow them in my garden.",
+        "That sounds really relaxing! I love gardening, but I don't get to do it as often as I would like.",
+        "I love to garden too! What kind of plants do you like to grow?"
+      ],
+      "occurrences": 105
+    },
+    {
+      "trait": "Dancing",
+      "confidence": 0.77,
+      "evidence": [
+        221,
+        1610,
+        2452,
+        3979,
+        7136,
+        7586,
+        11192,
+        11610,
+        12365,
+        13324
+      ],
+      "snippets": [
+        "I love to dance! Dancing is a great way to stay fit and have fun. I especially love to dance to upbeat music.",
+        "I like to dance, read, and spend time with my family.",
+        "I love dancing! It is a great way to express yourself.",
+        "Me too! I love to dance to anything that gets me moving.",
+        "That sounds like a lot of fun! I love to dance too, but I usually only do it at home because I'm too shy to dance in …"
+      ],
+      "occurrences": 118
+    },
+    {
+      "trait": "Video Gaming",
+      "confidence": 0.7,
+      "evidence": [
+        10363,
+        18265,
+        27529,
+        32083,
+        32564,
+        35175,
+        37023,
+        47568,
+        54014,
+        56333
+      ],
+      "snippets": [
+        "Oh, I love video games too! What games do you like to play?",
+        "I love video games too! What's your favorite game?",
+        "I play video games and watch TV.",
+        "I love video games too! I'm not much of a movie person, but I do like to watch documentaries.",
+        "That sounds like a lot of fun! I love video games too. I don't have a dog, but I love going for walks. I've never pla…"
+      ],
+      "occurrences": 60
+    },
+    {
+      "trait": "Fishing",
+      "confidence": 0.66,
+      "evidence": [
+        2248,
+        11899,
+        19805,
+        19811,
+        26461,
+        29487,
+        32858,
+        34167,
+        38455,
+        41261
+      ],
+      "snippets": [
+        "Yes, I enjoy fishing and relaxing. I also enjoy spending time with my daughter.",
+        "That sounds like a great place to fish! I love fishing.",
+        "Oh wow! I love to fish! I'm actually on my way to a crocheting class.",
+        "That sounds like fun! I love fishing with my family.",
+        "I enjoy fishing and spending time outdoors."
+      ],
+      "occurrences": 38
+    },
+    {
+      "trait": "Photography",
+      "confidence": 0.65,
+      "evidence": [
+        6012,
+        8457,
+        11566,
+        18374,
+        28503,
+        31985,
+        34042,
+        43734,
+        47687,
+        48075
+      ],
+      "snippets": [
+        "I love photographing birds! They're so beautiful and graceful.",
+        "I am a photographer. I love taking pictures of people and animals.",
+        "Oh that's awesome! I love photography too. I used to work for Monsanto as a photographer.",
+        "That sounds really cool! I love photography. I'm not very good at it, but I enjoy taking pictures.",
+        "I'm a creative person who enjoys using my imagination to create new things. I love photography!"
+      ],
+      "occurrences": 32
+    },
+    {
+      "trait": "Volunteer Work",
+      "confidence": 0.64,
+      "evidence": [
+        4117,
+        8374,
+        38806,
+        41397,
+        43851,
+        46128,
+        51534,
+        52218,
+        53364,
+        53944
+      ],
+      "snippets": [
+        "I volunteer in my spare time and I collect stamps.",
+        "I like kids too! I volunteer at the local animal shelter, and I get to play with all the puppies and kittens.",
+        "Oh that is too bad! Concerts are so much fun! I volunteer in my spare time.",
+        "I volunteer at a local soup kitchen and I also donate to charities.",
+        "I volunteer at my church's food pantry a lot. I love helping people."
+      ],
+      "occurrences": 29
+    },
+    {
+      "trait": "Regular Exercise",
+      "confidence": 0.63,
+      "evidence": [
+        132,
+        4222,
+        4260,
+        5409,
+        28213,
+        31912,
+        36356,
+        36582,
+        54604,
+        58145
+      ],
+      "snippets": [
+        "I own a gym. I train people to stay in peak physical condition.",
+        "Yes, I train whenever I can. It's a great way to stay fit and healthy.",
+        "It can be tough to stay motivated, but it's worth it! I feel so much better when I work out regularly.",
+        "That's cool! I love to listen to music when I work out too",
+        "It's definitely worth it though. I feel so much better when I work out."
+      ],
+      "occurrences": 26
+    },
+    {
+      "trait": "Academic Study",
+      "confidence": 0.63,
+      "evidence": [
+        2065,
+        10539,
+        15851,
+        20281,
+        22502,
+        27713,
+        34700,
+        37691,
+        46664,
+        55309
+      ],
+      "snippets": [
+        "I am studying business administration. I want to get my MBA after I graduate.",
+        "I am studying to be a teacher",
+        "I am studying computer science.",
+        "I am studying math and science. They are both challenging, but I am enjoying them.",
+        "I study the effects of climate change on the environment."
+      ],
+      "occurrences": 27
+    },
+    {
+      "trait": "Camping / Outdoor Activities",
+      "confidence": 0.63,
+      "evidence": [
+        12425,
+        24157,
+        32671,
+        34398,
+        39042,
+        68894,
+        70846,
+        92344,
+        101298,
+        101374
+      ],
+      "snippets": [
+        "I'm the opposite, I love camping but I'm not a huge fan of hiking.",
+        "Nice! I love camping but I don't go often enough. What's your favorite part about it?",
+        "I love camping! I took my family camping last weekend. It was so much fun.",
+        "Me too! I love camping.",
+        "That sounds really fun!  I love camping too.  Where did you go camping?"
+      ],
+      "occurrences": 26
+    },
+    {
+      "trait": "Sleep / Wake Routine",
+      "confidence": 0.61,
+      "evidence": [
+        11169,
+        15778,
+        19239,
+        24931,
+        57278,
+        70227,
+        77615,
+        81957,
+        84496,
+        92724
+      ],
+      "snippets": [
+        "Good! I woke up early and stretched before getting ready. How about you?",
+        "Me too! I wake up early and greet my family with a wagging tail.",
+        "I wake up early and greet my family with a wagging tail.",
+        "I wake up early to feed my cats and then work on my laptops until it's time to get ready for my wedding in the park.",
+        "I woke up early, worked on my blog for a few hours, then explored a new place."
+      ],
+      "occurrences": 21
+    }
+  ],
+  "personal_facts": [
+    {
+      "trait": "Job Title",
+      "confidence": 1.0,
+      "evidence": [
+        89,
+        185,
+        251,
+        302,
+        505,
+        644,
+        1011,
+        1540,
+        1619,
+        1797
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Has Partner",
+      "confidence": 1.0,
+      "evidence": [
+        548,
+        1456,
+        1602,
+        1666,
+        2578,
+        2650,
+        3135,
+        3141,
+        4794,
+        5290
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Has Pet",
+      "confidence": 1.0,
+      "evidence": [
+        736,
+        824,
+        2162,
+        2254,
+        3195,
+        3619,
+        3899,
+        4886,
+        5455,
+        5637
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Interest: Reading",
+      "confidence": 0.97,
+      "evidence": [
+        57,
+        1696,
+        2109,
+        3777,
+        4268,
+        4532,
+        4748,
+        5727,
+        7327,
+        7948
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Interest: Animals",
+      "confidence": 0.96,
+      "evidence": [
+        736,
+        1433,
+        1639,
+        2499,
+        3617,
+        5016,
+        5637,
+        6110,
+        7950,
+        7952
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Interest: Hiking",
+      "confidence": 0.91,
+      "evidence": [
+        951,
+        2741,
+        2829,
+        4592,
+        12316,
+        12363,
+        13304,
+        13892,
+        15301,
+        15569
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Has Sibling",
+      "confidence": 0.9,
+      "evidence": [
+        501,
+        800,
+        1977,
+        2057,
+        3742,
+        3771,
+        3923,
+        4380,
+        5457,
+        5805
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Interest: Music",
+      "confidence": 0.89,
+      "evidence": [
+        1395,
+        1956,
+        2473,
+        2938,
+        4479,
+        4496,
+        4568,
+        4666,
+        6181,
+        9854
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Interest: Cooking",
+      "confidence": 0.86,
+      "evidence": [
+        2776,
+        4196,
+        5076,
+        7110,
+        9355,
+        11332,
+        11670,
+        13982,
+        15011,
+        20826
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Is Parent",
+      "confidence": 0.77,
+      "evidence": [
+        79,
+        3969,
+        15714,
+        18808,
+        30332,
+        31794,
+        31985,
+        34770,
+        38759,
+        40187
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Location: A Big City",
+      "confidence": 0.6,
+      "evidence": [
+        11255,
+        23583,
+        24191,
+        74399,
+        92018,
+        109314,
+        125684,
+        129700,
+        150463,
+        164345
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Location: The City",
+      "confidence": 0.56,
+      "evidence": [
+        12421,
+        27726,
+        30018,
+        50575,
+        58447,
+        60730,
+        109006,
+        158615
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Workplace: An Animal Clinic",
+      "confidence": 0.55,
+      "evidence": [
+        34404,
+        66150,
+        124165,
+        125027,
+        145593,
+        162128,
+        167963
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Workplace: A Factory",
+      "confidence": 0.53,
+      "evidence": [
+        5155,
+        41536,
+        41954,
+        55345,
+        74359,
+        146094
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Workplace: A Small",
+      "confidence": 0.53,
+      "evidence": [
+        7913,
+        63531,
+        76518,
+        84500,
+        95682,
+        188079
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Workplace: A Coffee Shop",
+      "confidence": 0.52,
+      "evidence": [
+        22202,
+        27833,
+        46455,
+        134768,
+        189314
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Location: The Suburbs",
+      "confidence": 0.52,
+      "evidence": [
+        60118,
+        66749,
+        100477,
+        107440,
+        137073
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Location: Portland",
+      "confidence": 0.52,
+      "evidence": [
+        64003,
+        90427,
+        132061,
+        139290,
+        173474
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Workplace: A Large Company",
+      "confidence": 0.49,
+      "evidence": [
+        63096,
+        74377,
+        107495,
+        120069
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Location: A Rural Area",
+      "confidence": 0.49,
+      "evidence": [
+        135906,
+        147786,
+        149391,
+        185266
+      ],
+      "snippets": [],
+      "occurrences": 0
+    }
+  ],
+  "personality_traits": [
+    {
+      "trait": "Creative",
+      "confidence": 1.0,
+      "evidence": [
+        21,
+        27,
+        71,
+        77,
+        130,
+        238,
+        244,
+        251,
+        253,
+        257
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Adventurous",
+      "confidence": 1.0,
+      "evidence": [
+        63,
+        178,
+        374,
+        411,
+        424,
+        428,
+        443,
+        619,
+        676,
+        791
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Empathetic",
+      "confidence": 1.0,
+      "evidence": [
+        101,
+        154,
+        240,
+        285,
+        577,
+        849,
+        934,
+        997,
+        1134,
+        1175
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Optimistic",
+      "confidence": 0.99,
+      "evidence": [
+        63,
+        65,
+        69,
+        172,
+        558,
+        858,
+        907,
+        947,
+        1041,
+        1106
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Humorous",
+      "confidence": 0.9,
+      "evidence": [
+        615,
+        752,
+        2382,
+        2614,
+        2994,
+        3663,
+        3709,
+        3996,
+        4534,
+        4568
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Introverted",
+      "confidence": 0.88,
+      "evidence": [
+        193,
+        497,
+        599,
+        601,
+        766,
+        1085,
+        1092,
+        1737,
+        2153,
+        2994
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Analytical",
+      "confidence": 0.86,
+      "evidence": [
+        1037,
+        1582,
+        2125,
+        2518,
+        2520,
+        2725,
+        4911,
+        5286,
+        7930,
+        9516
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Extroverted",
+      "confidence": 0.84,
+      "evidence": [
+        117,
+        976,
+        1764,
+        1868,
+        2956,
+        5086,
+        5098,
+        5100,
+        5423,
+        6219
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Passionate",
+      "confidence": 0.78,
+      "evidence": [
+        1555,
+        1803,
+        2980,
+        2986,
+        7731,
+        7765,
+        11936,
+        12007,
+        16925,
+        19318
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Health Conscious",
+      "confidence": 0.76,
+      "evidence": [
+        221,
+        322,
+        1916,
+        2353,
+        3607,
+        4222,
+        4260,
+        5419,
+        7541,
+        8406
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Organized",
+      "confidence": 0.74,
+      "evidence": [
+        1771,
+        4678,
+        10531,
+        12795,
+        13700,
+        13857,
+        15962,
+        15970,
+        18058,
+        20522
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Family Oriented",
+      "confidence": 0.69,
+      "evidence": [
+        273,
+        4945,
+        5084,
+        7763,
+        11118,
+        12454,
+        13452,
+        15439,
+        21441,
+        27235
+      ],
+      "snippets": [],
+      "occurrences": 0
+    }
+  ],
+  "communication_style": [
+    {
+      "trait": "Enthusiastic tone — frequent '!' (54%)",
+      "confidence": 0.84,
+      "evidence": [
+        1,
+        3,
+        5,
+        11,
+        13,
+        17,
+        23,
+        29,
+        43,
+        45
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Short to medium messages (6-15 words avg) (avg 11.6w)",
+      "confidence": 0.75,
+      "evidence": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Supportive and encouraging (8% of messages)",
+      "confidence": 0.62,
+      "evidence": [
+        3,
+        13,
+        17,
+        81,
+        85,
+        89,
+        130,
+        156,
+        199,
+        223
+      ],
+      "snippets": [],
+      "occurrences": 0
+    },
+    {
+      "trait": "Regularly asks questions (19% of messages)",
+      "confidence": 0.61,
+      "evidence": [
+        1,
+        3,
+        15,
+        25,
+        29,
+        35,
+        45,
+        47,
+        53,
+        55
+      ],
+      "snippets": [],
+      "occurrences": 0
+    }
+  ]
+}

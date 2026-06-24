@@ -24,10 +24,10 @@ env/
 Thumbs.db
 
 # Generated data (keep structure, ignore content)
-vector_db/*.faiss
-vector_db/*_meta.json
-checkpoints/*.json
-persona/*.json
+# vector_db/*.faiss
+# vector_db/*_meta.json
+# checkpoints/*.json
+# persona/*.json
 data/parsed_messages.json
 
 # Logs
