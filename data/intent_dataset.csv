@@ -1,0 +1,156 @@
+text,intent,source
+I need to analyze this dataset,action_item,synthetic
+"I'm doing well, thanks! I'm just getting over a breakup, but I'm trying to stay positive.",emotional_support,real
+"Yes, they are. I feel like they're universal experiences that everyone can relate to.",emotional_support,real
+That sounds like a lot of fun! I love the beach too. I have a cat named George.,small_talk,real
+Maybe tomorrow or the day after,unknown,synthetic
+Hi! I'm trying to figure out how to cope with my breakup. It's been really hard on me.,emotional_support,real
+Note to self: back up my files tonight,reminder,synthetic
+Can you help me write unit tests?,action_item,synthetic
+The stars are made of cheese perhaps,unknown,synthetic
+I have to complete this task before the deadline,action_item,synthetic
+I wonder about the nature of time,unknown,synthetic
+"Hey there, doing well! I just graduated high school and I am very excited about my future. How are you doing?",small_talk,real
+I keep forgetting to renew my subscription,reminder,synthetic
+"It's great! The weather is rainy most of the time, but it's a beautiful place. I love the mountains and the forests.",small_talk,real
+Set an alarm for 7am tomorrow,reminder,synthetic
+My fridge makes a weird sound,unknown,synthetic
+I love the food scene. There are so many great restaurants to choose from.,small_talk,real
+Can you help me fix this bug in the code?,action_item,synthetic
+Let's fix the security vulnerability,action_item,synthetic
+I feel like I am not living up to my full potential.,emotional_support,real
+remind me about the conference call,reminder,synthetic
+Not sure what to say really,unknown,synthetic
+make sure i remember to turn off the lights,reminder,synthetic
+That sounds fun!  I hope you have a good time.,small_talk,real
+"Hey, how's it going?",small_talk,real
+I just wanted to say something,unknown,synthetic
+Set a reminder for my meeting tomorrow morning,reminder,synthetic
+Can you assist with the problem I described,action_item,synthetic
+bleep bloop beep,unknown,synthetic
+Me too! I feel like I can talk about comics for hours.,emotional_support,real
+The moon looks different tonight,unknown,synthetic
+Remind me to send that email later,reminder,synthetic
+"Hello! I'm doing alright, how are you?",small_talk,real
+i need to set a reminder to call back john,reminder,synthetic
+"I'm worried my fantasies are going to get in the way of my new relationship, but I don't want to talk about them to anyone.",emotional_support,real
+"Oh, really? That's awesome! I love sharks. What's your favorite thing about them?",small_talk,real
+Don't let me forget the anniversary gift,reminder,synthetic
+I love the process of creating something from clay. It's so satisfying to see your work come to life.,small_talk,real
+abc def ghi,unknown,synthetic
+Thank you! I am trying to be positive about it. I am also a bit worried because they are worried I am lonely.,emotional_support,real
+That is a very important topic. I am worried about the environment too.,emotional_support,real
+I need to submit this assignment today,action_item,synthetic
+I need to optimize this function,action_item,synthetic
+I need to remember to submit the report by Friday,reminder,synthetic
+"You know, I went through a breakup a few years ago. It was really tough, but I got through it.",emotional_support,real
+I have to remember to RSVP by Monday,reminder,synthetic
+Let's build the new feature,action_item,synthetic
+I need to integrate the API,action_item,synthetic
+"I'm doing great, thank you! How are you doing today?",small_talk,real
+Let's work on improving the performance,action_item,synthetic
+"I am a librarian, but I lost my job because I am always forgetting where I put things. How about you?",emotional_support,real
+It's definitely worth it! I feel so much better when I work out in the morning.,emotional_support,real
+"Hey, how are you doing?",small_talk,real
+I have to pick up the kids at 3pm,reminder,synthetic
+I do not know. I am scared of what they will say.,emotional_support,real
+It is! I love writing when I'm stressed out. It helps me to clear my head.,emotional_support,real
+Don't let me forget to water the plants,reminder,synthetic
+I have a deadline next week I keep forgetting,reminder,synthetic
+Can you explain quantum entanglement,unknown,synthetic
+Thanks! I hope so. I'm really worried about it.,emotional_support,real
+Whatever happens happens,unknown,synthetic
+Please help me complete this task,action_item,synthetic
+Hi! I'm doing okay. Just trying to figure out how to cope with my recent breakup.,emotional_support,real
+I am trying to resolve this error,action_item,synthetic
+It's alright. I'm exhausted from driving 300 miles a week for work.,emotional_support,real
+qwerty asdf zxcv,unknown,synthetic
+That's a great episode! I love the part where Picard learns about the culture of the people he's been sent to help.,small_talk,real
+Please remind me when it is time to go,reminder,synthetic
+Nothing much going on,unknown,synthetic
+"It can be tough, but it's definitely worth it. I feel so much better when I'm active.",emotional_support,real
+This is an interesting situation,unknown,synthetic
+Help me debug this issue,action_item,synthetic
+Can you remind me to stretch every hour?,reminder,synthetic
+This is completely random text,unknown,synthetic
+remind me to check the oven in 20 minutes,reminder,synthetic
+I can understand that. I love the way movies can transport me to another world.,small_talk,real
+I need to clean up the database,action_item,synthetic
+That sounds great! I have a lot of family in Canada.,small_talk,real
+Can you help me set up the environment?,action_item,synthetic
+"That sounds fun. I'm not very coordinated, so I don't drink much. I do love music though.",small_talk,real
+I'm looking forward to it! What do you like to do for fun?,small_talk,real
+This doesn't make sense to me,unknown,synthetic
+I need to migrate the data,action_item,synthetic
+"I'm worried about not being able to afford college, and I'm worried about not being able to help my family.",emotional_support,real
+"So, what's your favorite movie?",small_talk,real
+I need to finish the project report by tomorrow,action_item,synthetic
+Remind me to call the plumber,reminder,synthetic
+Can you help me write the documentation?,action_item,synthetic
+Hmm interesting I suppose,unknown,synthetic
+What is the capital of Mars,unknown,synthetic
+Help me create a test plan,action_item,synthetic
+Notify me before the deadline,reminder,synthetic
+Can you review my code?,action_item,synthetic
+Help me draft an email to the client,action_item,synthetic
+That sounds interesting. I'll have to check him out.,small_talk,real
+I need to schedule a follow-up,reminder,synthetic
+Let's plan the next sprint,action_item,synthetic
+I'm just thinking out loud,unknown,synthetic
+I forgot about the meeting yesterday can you remind me next time,reminder,synthetic
+I agree.  What's your favorite video game?,small_talk,real
+Can you remind me about the dentist appointment?,reminder,synthetic
+"I am worried about the future of our planet. I see so much pollution, and it is scary.",emotional_support,real
+Don't forget we have dinner plans on Saturday,reminder,synthetic
+I need to remember to buy groceries,reminder,synthetic
+It sure does. I feel like I just got out of school.,emotional_support,real
+I found a penny on the sidewalk,unknown,synthetic
+Pesto sauce is really good too! I love the fresh flavor of the basil.,small_talk,real
+I need to redesign the database schema,action_item,synthetic
+Me too! I love the views from the top of the mountains.,small_talk,real
+Me too! I feel like I could talk about books all day long.,emotional_support,real
+"Hi, I'm going through a divorce. I'm trying to figure out how to cope",emotional_support,real
+I want to make sure I don't miss this event,reminder,synthetic
+"Wow, that's a lot going on! Congratulations on the twins!",small_talk,real
+I need to find a solution to this problem,action_item,synthetic
+Those are all great movies! I love The Shawshank Redemption too.,small_talk,real
+I shouldn't forget to pay the electricity bill,reminder,synthetic
+I love going barefoot too. I think it feels great. I am sad that my laptop's battery is faulty.,emotional_support,real
+I have no idea what you mean,unknown,synthetic
+Me too! It's nice to talk to someone who understands what I'm going through.,emotional_support,real
+"Hello there, how are you?",small_talk,real
+"My wife is a college professor, I'm a professional basketball player, we have a pretty nice life but sometimes I feel like I'm in a rut",emotional_support,real
+That sounds nice! I love the outdoors.,small_talk,real
+I'm doing alright. What's your favorite hobby?,small_talk,real
+I'm down for anything as long as it's not too scary. I'm not a big fan of heights.,emotional_support,real
+don't forget to pack the charger,reminder,synthetic
+I need to refactor this module,action_item,synthetic
+"Oh wow, that's awesome! I'm a big fan of the Eagles.",small_talk,real
+Hi there! I'm a widow and I love to drive and dress up. I'm sad when I think about my dog. What do you like to do?,emotional_support,real
+42 is the answer to everything,unknown,synthetic
+Remind me to charge my laptop before the flight,reminder,synthetic
+Something something blah blah,unknown,synthetic
+"That is interesting. I have never been arrested either, but my parents are also worried that I am lonely. I like to watch movies and read books.",emotional_support,real
+Hey there! How are you?,small_talk,real
+Remind me to take my medication at 8pm,reminder,synthetic
+I need to update the configuration,action_item,synthetic
+I feel like we're going to be friends.,emotional_support,real
+I need to prepare the presentation,action_item,synthetic
+"Thanks for talking to me, **User 2**. It's nice to know that someone else understands what I'm going through.",emotional_support,real
+My cat knocked something off the shelf,unknown,synthetic
+Help me get this working,action_item,synthetic
+It's calming and peaceful. I like to look at green things when I'm stressed out.,emotional_support,real
+"That sounds wonderful. I used to be a nurse, but I lost my job when I was diagnosed with cancer. What do you do for a living?",emotional_support,real
+Those are all great bands! I love The Beatles.,small_talk,real
+You too! Have a good night!,small_talk,real
+That sounds amazing. I would love to visit Canada one day and go hiking.,small_talk,real
+Let's figure out how to deploy this,action_item,synthetic
+"Hey, how's your day going so far?",small_talk,real
+I don't even know anymore,unknown,synthetic
+What's your favorite thing about being a nurse?,small_talk,real
+Me too! It's nice to meet someone who understands what I'm going through.,emotional_support,real
+Those are both great topics! I love writing about my experiences in life too. It's a great way to process what I'm going through.,emotional_support,real
+Good to hear. My day is going well too. I'm trying to figure out how to cope with my recent breakup.,emotional_support,real
+Don't forget to call Mom tomorrow,reminder,synthetic
+"oh, that sounds fun! what kind of cupcakes did you make?",small_talk,real
+My favorite movie is also Good Burger. I love the food puns in it.,small_talk,real

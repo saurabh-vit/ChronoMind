@@ -1,0 +1,49 @@
+{
+    "project_name": "ChronoMind",
+    "version": "1.0.0",
+
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+
+    "topic_detection": {
+        "similarity_threshold": 0.50,
+        "min_topic_messages": 10,
+        "window_size": 5
+    },
+
+    "checkpoints": {
+        "interval": 20
+    },
+
+    "chunking": {
+        "chunk_size": 20,
+        "chunk_overlap": 4
+    },
+
+    "retrieval": {
+        "top_k_chunks": 8,
+        "top_k_topics": 5,
+        "top_k_checkpoints": 3
+    },
+
+    "summarization": {
+        "method": "sumy_lsa",
+        "sentences_count": 3
+    },
+
+    "persona": {
+        "min_confidence": 0.4,
+        "evidence_window": 5,
+        "max_facts_per_category": 20,
+        "max_total_facts": 50,
+        "min_evidence_convos": 2
+    },
+
+    "paths": {
+        "data_dir": "data",
+        "vector_db_dir": "vector_db",
+        "checkpoints_dir": "checkpoints",
+        "persona_dir": "persona",
+        "conversations_file": "data/conversations.csv"
+    }
+}

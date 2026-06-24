@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated data (keep structure, ignore content)
+vector_db/*.faiss
+vector_db/*_meta.json
+checkpoints/*.json
+persona/*.json
+data/parsed_messages.json
+
+# Logs
+*.log
